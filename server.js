@@ -7,7 +7,8 @@ var app = express();
 app.get('/newsfeed', function (request, response) {
   
   //response.send(newfeedJson);
-  response.json(      {
+  response.setHeader('Content-Type', 'application/json');
+  response.json({
          "sections":[
             {
                "name":"Top Stories",
