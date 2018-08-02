@@ -1,0 +1,23 @@
+{
+  "name": "nma-mock-services",
+  "version": "1.0.0",
+  "description": "News Mobile Apps Mock Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasong-peakbagger/nma-mock-services.git"
+  },
+  "author": "jgoodwin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasong-peakbagger/nma-mock-services/issues"
+  },
+  "homepage": "https://github.com/jasong-peakbagger/nma-mock-services#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
