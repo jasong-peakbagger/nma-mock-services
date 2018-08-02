@@ -945,6 +945,6 @@ app.get('/newsfeed', function (request, response) {
       });
 });
 
-app.listen(3000, function () {
-  console.log('server started on port 3000');
+app.listen(3300, function () {
+  console.log('server started on port 3300');
 });
